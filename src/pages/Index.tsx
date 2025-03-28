@@ -8,6 +8,7 @@ import Clients from "@/components/Clients";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const Index = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -35,6 +36,7 @@ const Index = () => {
       <Testimonials />
       <Contact />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };

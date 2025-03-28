@@ -40,9 +40,6 @@ const Navbar = ({ isScrolled }: NavbarProps) => {
             <a href="#clients" className="text-black hover:text-orange-500 transition-colors">
               Clients
             </a>
-            <a href="#testimonials" className="text-black hover:text-orange-500 transition-colors">
-              Testimonials
-            </a>
             <a 
               href="#contact" 
               className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-md transition-colors"
@@ -85,13 +82,6 @@ const Navbar = ({ isScrolled }: NavbarProps) => {
             onClick={toggleMenu}
           >
             Clients
-          </a>
-          <a
-            href="#testimonials"
-            className="text-black hover:text-orange-500 transition-colors py-2"
-            onClick={toggleMenu}
-          >
-            Testimonials
           </a>
           <a
             href="#contact"
