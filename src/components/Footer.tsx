@@ -9,7 +9,10 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
-            <h3 className="text-xl font-bold mb-4">TechEnablr</h3>
+            <div className="flex items-center gap-2 mb-4">
+              <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-xl">VR</div>
+              <h3 className="text-xl font-bold">VR Best Solutions</h3>
+            </div>
             <p className="text-gray-400 mb-4">
               Empowering businesses with cutting-edge IT-enabled services and solutions.
             </p>
@@ -57,6 +60,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-orange-500 transition-colors">Home</a></li>
               <li><a href="#services" className="text-gray-400 hover:text-orange-500 transition-colors">Services</a></li>
+              <li><a href="#about" className="text-gray-400 hover:text-orange-500 transition-colors">About Us</a></li>
               <li><a href="#clients" className="text-gray-400 hover:text-orange-500 transition-colors">Clients</a></li>
               <li><a href="#testimonials" className="text-gray-400 hover:text-orange-500 transition-colors">Testimonials</a></li>
               <li><a href="#contact" className="text-gray-400 hover:text-orange-500 transition-colors">Contact</a></li>
@@ -76,7 +80,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="mr-2 text-orange-500 flex-shrink-0" size={18} />
-                <a href="mailto:info@techenablr.com" className="text-gray-400 hover:text-orange-500 transition-colors">info@techenablr.com</a>
+                <a href="mailto:info@vrbestsolutions.com" className="text-gray-400 hover:text-orange-500 transition-colors">info@vrbestsolutions.com</a>
               </li>
             </ul>
           </div>
@@ -84,7 +88,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 pt-8">
           <p className="text-center text-gray-500">
-            © {currentYear} TechEnablr. All rights reserved.
+            © {currentYear} VR Best Solutions. All rights reserved.
           </p>
         </div>
       </div>
