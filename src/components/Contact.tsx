@@ -1,5 +1,5 @@
-
 import { useState } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -11,6 +11,7 @@ const Contact = () => {
   
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState("");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
@@ -20,9 +21,21 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
+
+    emailjs.send(
+      "YOUR_SERVICE_ID", // Replace with your EmailJS service ID
+      "YOUR_TEMPLATE_ID", // Replace with your EmailJS template ID
+      {
+        from_name: formData.name,
+        from_email: formData.email,
+        to_email: "yourbusiness@example.com", // Replace with your business email address
+        subject: formData.subject,
+        message: formData.message,
+      },
+      "YOUR_USER_ID" // Replace with your EmailJS user ID
+    )
+    .then((response) => {
+      console.log("SUCCESS!", response.status, response.text);
       setIsSubmitting(false);
       setSubmitted(true);
       setFormData({
@@ -36,7 +49,12 @@ const Contact = () => {
       setTimeout(() => {
         setSubmitted(false);
       }, 5000);
-    }, 1500);
+    })
+    .catch((err) => {
+      console.error("FAILED...", err);
+      setError("Failed to send message. Please try again later.");
+      setIsSubmitting(false);
+    });
   };
 
   return (
@@ -56,6 +74,12 @@ const Contact = () => {
               Thank you for your message! We'll get back to you soon.
             </div>
           ) : null}
+
+          {error && (
+            <div className="bg-red-500/20 border border-red-500 text-white p-4 rounded-lg mb-6 text-center">
+              {error}
+            </div>
+          )}
           
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
