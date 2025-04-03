@@ -18,7 +18,7 @@ const AboutUs = () => {
             <div className="relative">
               <div className="rounded-lg overflow-hidden shadow-xl">
                 <img
-                  src="https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/profile-pic-4.jpg"
+                  src="https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/profile-pic-3.jpg"
                   alt="Founder and CEO"
                   className="w-full h-auto"
                 />
