@@ -1,14 +1,21 @@
+
+User-agent: *
+Allow: /
+
+# Allow Google to crawl everything
 User-agent: Googlebot
 Allow: /
 
+# Allow Bing to crawl everything
 User-agent: Bingbot
 Allow: /
 
+# Allow social media crawlers
 User-agent: Twitterbot
 Allow: /
 
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: *
-Allow: /
+# Sitemap location (update when available)
+Sitemap: https://vrbestsolutions.com/sitemap.xml

@@ -28,11 +28,14 @@ const Navbar = ({ isScrolled }: NavbarProps) => {
         <div className="flex items-center justify-between">          
           <Link 
             to="/" 
-            className="flex items-center gap-2">
+            className="flex items-center gap-2 py-2" 
+            aria-label="VR Best Group Home">
             <img 
               src="https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/vr-best-group-logo1.png"
-              alt="VR Best Logo" 
-              className="logo-container object-cover rounded-md"
+              alt="VR Best Solutions - IT Enabled Services" 
+              className="logo-container object-contain"
+              width="180"
+              height="60"
             />
           </Link>
           <nav className="hidden md:flex items-center space-x-8">
@@ -53,7 +56,7 @@ const Navbar = ({ isScrolled }: NavbarProps) => {
             </a>
           </nav>
 
-          <button className="md:hidden text-black" onClick={toggleMenu}>
+          <button className="md:hidden text-black" onClick={toggleMenu} aria-label="Toggle navigation menu">
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
