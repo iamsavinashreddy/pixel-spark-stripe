@@ -26,12 +26,8 @@ const Navbar = ({ isScrolled }: NavbarProps) => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           <a href="#" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-xl">
-              <img src="https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/vr-best-group-logo1.png" alt="VR Best Solutions Logo" className="w-full h-full object-cover rounded-full" />
-            </div>
-            <span className="text-xl font-bold text-orange-500">VR Best Solutions</span>
+            <img src="https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/vr-best-group-logo1.png" alt="VR Best Solutions Logo" className="w-10 h-10 object-cover rounded-full" />
           </a>
-
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#services" className="text-black hover:text-orange-500 transition-colors">
               Services
