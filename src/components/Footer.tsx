@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-xl">VR</div>
-              <h3 className="text-xl font-bold">VR Best Solutions</h3>
+              <h3 className="text-xl font-bold">Best Solutions</h3>
             </div>
             <p className="text-gray-400 mb-4">
               Empowering businesses with cutting-edge IT-enabled services and solutions.
@@ -70,17 +70,17 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <ul className="space-y-4">
-              <li className="flex items-start">
-                <MapPin className="mr-2 mt-1 text-orange-500 flex-shrink-0" size={18} />
-                <span className="text-gray-400">123 Tech Street, Digital City, 10001</span>
-              </li>
               <li className="flex items-center">
                 <Phone className="mr-2 text-orange-500 flex-shrink-0" size={18} />
-                <a href="tel:+11234567890" className="text-gray-400 hover:text-orange-500 transition-colors">+1 (123) 456-7890</a>
+                <a href="tel:+13073872378" className="text-gray-400 hover:text-orange-500 transition-colors">+1 (307) 387-2378</a>
               </li>
               <li className="flex items-center">
                 <Mail className="mr-2 text-orange-500 flex-shrink-0" size={18} />
-                <a href="mailto:info@vrbestsolutions.com" className="text-gray-400 hover:text-orange-500 transition-colors">info@vrbestsolutions.com</a>
+                <a href="mailto:it@vrbest.group" className="text-gray-400 hover:text-orange-500 transition-colors">it@vrbest.group/a>
+              </li>
+              <li className="flex items-start">
+                <MapPin className="mr-2 mt-1 text-orange-500 flex-shrink-0" size={18} />
+                <span className="text-gray-400">PO Box 3067, PA, 17011</span>
               </li>
             </ul>
           </div>
