@@ -24,10 +24,16 @@ const Navbar = ({ isScrolled }: NavbarProps) => {
       )}
     >
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex items-center justify-between">
-          <a href="#" className="flex items-center gap-2">
-            <img src="https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/vr-best-group-logo1.png" alt="VR Best Solutions Logo" className="w-10 h-10 object-cover rounded-full" />
-          </a>
+        <div className="flex items-center justify-between">          
+          <Link 
+            to="/" 
+            className="flex items-center gap-2">
+            <img 
+              src="https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/vr-best-group-logo1.png"
+              alt="VR Best Logo" 
+              className="logo-container"
+            />
+          </Link>
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#services" className="text-black hover:text-orange-500 transition-colors">
               Services
