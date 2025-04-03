@@ -18,6 +18,25 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.logo-container {
+  width: 250px;
+  max-width: 600px;
+  height: auto;
+  border-radius: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .logo-container {
+    width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-container {
+    width: 200px;
+  }
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
