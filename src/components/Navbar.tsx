@@ -32,7 +32,7 @@ const Navbar = ({ isScrolled }: NavbarProps) => {
             <img 
               src="https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/vr-best-group-logo1.png"
               alt="VR Best Logo" 
-              className="logo-container"
+              className="logo-container w-15 h-10 object-cover rounded-full"
             />
           </Link>
           <nav className="hidden md:flex items-center space-x-8">
