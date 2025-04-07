@@ -28,15 +28,15 @@ const AboutUs = () => {
             </div>
             
             <div>
-              <h3 className="text-2xl font-bold mb-2">Avinash Reddy</h3>
+              <h3 className="text-2xl font-bold mb-2">Avinash</h3>
               <p className="text-orange-500 font-medium mb-4">Founder & CEO</p>
               
               <p className="text-gray-700 mb-4">
-                With over 15 years of experience in the IT industry, Reddy leads our team with vision and expertise. His passion for leveraging technology to solve business challenges drives our company's mission.
+                With over 15 years of experience in the IT industry, Avinash leads our team with vision and expertise. His passion for leveraging technology to solve business challenges drives our company's mission.
               </p>
               
               <p className="text-gray-700 mb-6">
-                Under Reddy leadership, VR Best Solutions has grown from a small startup to a trusted provider of comprehensive IT-enabled services for businesses of all sizes.
+                Under Avinash leadership, VR Best Solutions has grown from a small startup to a trusted provider of comprehensive IT-enabled services for businesses of all sizes.
               </p>
               
               <div className="flex space-x-4">
@@ -65,11 +65,12 @@ const AboutUs = () => {
               <p className="text-orange-500 font-medium mb-4">Operations Manager</p>
               
               <p className="text-gray-700 mb-4">
-                With a strong background in project management and operational excellence, Sarah ensures that all our services are delivered with the highest quality and efficiency.
+                About 18 Years of IT industry experience into Account and Delivery management.
               </p>
               
               <p className="text-gray-700 mb-6">
-                Sarah oversees the day-to-day operations of VR Best Solutions, coordinating our teams and resources to meet client needs and exceed expectations.
+                Worked in various verticals such as AI, HCM, Insurance, Charity, FinTech, Ecommerce, Banking, Logistics, SCM, Telecom, Billing. 
+                Specialist in working with cross-functional teams where authority is not effective.
               </p>
               
               <div className="flex space-x-4">
@@ -91,7 +92,7 @@ const AboutUs = () => {
             <div className="relative order-1 lg:order-2">
               <div className="rounded-lg overflow-hidden shadow-xl">
                 <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop"
+                  src="https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/Bharat.jpg"
                   alt="Operations Manager"
                   className="w-full h-auto"
                 />
