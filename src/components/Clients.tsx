@@ -14,6 +14,30 @@ const brandLogos = [
     name: "Amazon",
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png",
   },
+  {
+    name: "Maruthi Agro",
+    logo: "https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/ma-logo-1b.png",
+  },
+  {
+    name: "Google",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png",
+  },
+  {
+    name: "Amazon",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png",
+  },
+  {
+    name: "Maruthi Agro",
+    logo: "https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/ma-logo-1b.png",
+  },
+  {
+    name: "Google",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png",
+  },
+  {
+    name: "Amazon",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png",
+  },
 ];
 
 const Clients = () => {
