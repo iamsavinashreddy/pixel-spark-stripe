@@ -1,6 +1,6 @@
 
 import { cn } from "@/lib/utils";
-import { Code, PaintBucket, CreditCard, BrainCircuit, TrendingUp, FileText } from "lucide-react";
+import { Code, PaintBucket, CreditCard, BrainCircuit, TrendingUp, FileText, Palette } from "lucide-react";
 
 const services = [
   {
@@ -24,19 +24,19 @@ const services = [
   {
     title: "Payment Gateways",
     description: "Implement secure and seamless payment solutions for your business with our payment gateway integration services.",
-    icon: "💳",
+    icon: <CreditCard className="w-8 h-8" />,
     highlightedDescription: "Implement <b>secure</b> and <b>seamless payment</b> solutions for your business with our <b>payment gateway integration</b> services."
   },
   {
     title: "AI Automation",
     description: "Streamline your business processes with our AI-powered automation solutions. Save time and reduce errors.",
-    icon: "🤖",
+    icon: <BrainCircuit className="w-8 h-8" />,
     highlightedDescription: "Streamline your business processes with our <b>AI-powered</b> automation solutions. <b>Save time</b> and <b>reduce errors</b>."
   },
   {
     title: "Graphics Designing",
     description: "Stand out with eye-catching graphics, website designs, business cards, flyers, and other marketing materials created by our creative team.",
-    icon: <PaintBucket className="w-8 h-8" />,
+    icon: <Palette className="w-8 h-8" />,
     highlightedDescription: "Stand out with <b>eye-catching graphics</b>, <b>website designs</b>, <b>business cards</b>, <b>flyers</b>, and other <b>marketing materials</b> created by our creative team."
   }
 ];
@@ -49,7 +49,7 @@ const Services = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Services</h2>
           <div className="w-16 h-1 bg-orange-500 mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-300">
-            We offer a wide range of IT-enabled services to help your business grow and succeed in the digital landscape.
+            We offer a wide range of IT-enabled services including IT consulting to help your business grow and succeed in the digital landscape.
           </p>
         </div>
 
