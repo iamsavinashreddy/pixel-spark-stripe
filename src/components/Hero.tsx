@@ -35,9 +35,12 @@ const Hero = () => {
           <div className="md:w-1/2 relative">
             <div className="relative z-10 rounded-xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+                src="https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/vr-best-solutions-hero-1.jpg"
                 alt="Digital Transformation"
-                className="w-full h-auto"
+                className="w-full h-auto object-cover"
+                style={{
+                  maxHeight: "500px"
+                }}
               />
             </div>
             <div className="absolute -bottom-6 -right-6 w-24 h-24 md:w-32 md:h-32 bg-orange-500 rounded-full -z-10"></div>
