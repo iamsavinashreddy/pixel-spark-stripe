@@ -1,41 +1,38 @@
 
 import { useRef, useEffect } from "react";
 
-const clients = [
+const brandLogos = [
   {
-    name: "TechCorp",
-    logo: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=200&h=100&fit=crop&crop=top",
-    url: "https://example.com/techcorp",
+    name: "Microsoft",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/512px-Microsoft_logo.svg.png",
   },
   {
-    name: "Innovate Inc",
-    logo: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=200&h=100&fit=crop&crop=top",
-    url: "https://example.com/innovate",
+    name: "Google",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png",
   },
   {
-    name: "Digital Solutions",
-    logo: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=200&h=100&fit=crop&crop=top",
-    url: "https://example.com/digital",
+    name: "Amazon",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png",
   },
   {
-    name: "WebExperts",
-    logo: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=200&h=100&fit=crop&crop=top",
-    url: "https://example.com/webexperts",
+    name: "Apple",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/488px-Apple_logo_black.svg.png",
   },
   {
-    name: "MarketPro",
-    logo: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=200&h=100&fit=crop&crop=top",
-    url: "https://example.com/marketpro",
+    name: "IBM",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1000px-IBM_logo.svg.png",
   },
   {
-    name: "BrandBuilders",
-    logo: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=200&h=100&fit=crop&crop=top",
-    url: "https://example.com/brandbuilders",
+    name: "Oracle",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/2560px-Oracle_logo.svg.png",
   },
   {
-    name: "CreativeMinds",
-    logo: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=200&h=100&fit=crop&crop=top",
-    url: "https://example.com/creativeminds",
+    name: "Salesforce",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/1200px-Salesforce.com_logo.svg.png",
+  },
+  {
+    name: "SAP",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/1200px-SAP_2011_logo.svg.png",
   },
 ];
 
@@ -66,11 +63,11 @@ const Clients = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Clients</h2>
           <div className="w-16 h-1 bg-orange-500 mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-600">
-            We've had the privilege of working with amazing clients across various industries.
+            We've had the privilege of working with leading brands across various industries.
           </p>
         </div>
 
-        {/* Auto-scrolling client logos */}
+        {/* Auto-scrolling brand logos */}
         <div className="relative overflow-hidden mb-16">
           <div 
             ref={scrollContainerRef}
@@ -78,20 +75,17 @@ const Clients = () => {
             style={{ scrollbarWidth: 'none' }}
           >
             <div className="flex space-x-12 py-4 animate-scroll">
-              {[...clients, ...clients].map((client, index) => (
-                <a 
+              {[...brandLogos, ...brandLogos].map((brand, index) => (
+                <div 
                   key={index} 
-                  href={client.url} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow min-w-[200px] h-24"
+                  className="flex items-center justify-center bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow min-w-[160px] h-20"
                 >
                   <img 
-                    src={client.logo} 
-                    alt={client.name} 
+                    src={brand.logo} 
+                    alt={brand.name} 
                     className="max-h-full max-w-full object-contain"
                   />
-                </a>
+                </div>
               ))}
             </div>
           </div>

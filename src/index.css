@@ -71,7 +71,7 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-200px * 7 - 12px * 7)); /* item width * item count + gap * item count */
+      transform: translateX(calc(-160px * 8 - 12px * 8)); /* item width * item count + gap * item count */
     }
   }
 }
