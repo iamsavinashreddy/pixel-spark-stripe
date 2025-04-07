@@ -3,9 +3,9 @@ import { useRef, useEffect } from "react";
 
 const brandLogos = [
   {
-    name: "Microsoft",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/512px-Microsoft_logo.svg.png",
-  },
+    name: "Maruthi Agro",
+    logo: "https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/ma-logo-1b.png",
+  } {/*,
   {
     name: "Google",
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png",
@@ -33,7 +33,8 @@ const brandLogos = [
   {
     name: "SAP",
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/1200px-SAP_2011_logo.svg.png",
-  },
+  }, 
+  */}
 ];
 
 const Clients = () => {
