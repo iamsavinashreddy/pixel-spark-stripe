@@ -62,7 +62,7 @@ const AboutUs = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center fade-in mt-12">
             <div className="order-2 lg:order-1">
               <h3 className="text-2xl font-bold mb-2">Bharat</h3>
-              <p className="text-orange-500 font-medium mb-4">Operations Manager</p>
+              <p className="text-orange-500 font-medium mb-4">Co-Founder & COO</p>
               
               <p className="text-gray-700 mb-4">
                 About 18 Years of IT industry experience into Account and Delivery management.
