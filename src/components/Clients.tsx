@@ -11,8 +11,8 @@ const brandLogos = [
     logo: "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img/https://macawdigital.in/wp-content/uploads/2024/01/macaw-logo-latest-updated.png",
   },
   {
-    name: "Maruthi Agro",
-    logo: "https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/ma-logo-1b.png",
+    name: "Shaila's Dance",
+    logo: "https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/SDA-Logo.png",
   },
   {
     name: "Macaw Digital",
@@ -23,12 +23,8 @@ const brandLogos = [
     logo: "https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/ma-logo-1b.png",
   },
   {
-   name: "Macaw Digital",
-    logo: "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img/https://macawdigital.in/wp-content/uploads/2024/01/macaw-logo-latest-updated.png",
-  },
-  {
-    name: "Maruthi Agro",
-    logo: "https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/ma-logo-1b.png",
+    name: "Shaila's Dance",
+    logo: "https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/SDA-Logo.png",
   },
 ];
 
